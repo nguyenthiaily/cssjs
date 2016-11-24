@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='http://dauhuephuocquy.com' target='_blank'><img src='http://dauhuephuocquy.com/wp-content/uploads/dau-tram-phuoc-quy1.jpg.jpg' width='500px'/><br/Tinh Dầu tràm</a>. TINH DẦU TẠI TP HCM. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='http://dauhuephuocquy.com' target='_blank'><img src='http://dauhuephuocquy.com/wp-content/uploads/dau-tram-phuoc-quy1.jpg' width='500px'/><br/Tinh Dầu tràm</a>. TINH DẦU TẠI TP HCM. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
